@@ -9,3 +9,5 @@ metadata:
 spec:
   api-spec:
     $path: ./FirstAPi-spec.yml
+  policy-sequence:
+    - $ref: TestProject:Request Transformation:1.0

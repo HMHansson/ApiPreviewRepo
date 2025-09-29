@@ -1,0 +1,14 @@
+kind: PolicySequence
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Request Policies
+  namespace: TestProject
+  version: '1.0'
+  tags: []
+spec:
+  transport:
+    - $ref: TestProject:SSL Port:1.0
+  iam:
+    - $ref: TestProject:TokenPolicy:1.0
+  req-processing:
+    - $ref: TestProject:RequestTransformation:1.0

@@ -1,4 +1,7 @@
 openapi: 3.0.1
 info:
-  title: ""
-  version: ""
+  title: This is an API
+  version: '1'
+  description: Whatever descr
+servers:
+  - url: https://localhost:443

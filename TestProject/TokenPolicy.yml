@@ -1,0 +1,12 @@
+kind: IdentifyAndAuthorize
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: TokenPolicy
+  namespace: TestProject
+  version: '1.0'
+  tags: []
+spec:
+  identificationType:
+    or:
+      apiKey:
+        applicationLookup: registered

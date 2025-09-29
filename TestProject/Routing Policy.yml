@@ -1,0 +1,11 @@
+kind: PolicySequence
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Routing Policy
+  namespace: TestProject
+  version: '1.0'
+  tags: []
+spec:
+  routing:
+    - $ref: TestProject:Straight through:1.0
+    - $ref: TestProject:BasicAuth:1.0
