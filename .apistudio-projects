@@ -1,8 +1,4 @@
 projects:
-  TestProject:
-    description: ''
-    tags: []
-    lastUpdated: 1759137798035
   RepoProject:
     description: abc
     tags: []
