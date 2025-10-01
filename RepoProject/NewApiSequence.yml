@@ -1,0 +1,16 @@
+kind: PolicySequence
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: NewApiSequence
+  namespace: RepoProject
+  version: '1.0'
+  tags: []
+spec:
+  transport:
+    - $ref: ApiPreviewPrivate:Transport:1.0
+  routing:
+    - $ref: ApiPreviewPrivate:Route:1.0
+  req-processing:
+    - $ref: ApiPreviewPrivate:Transform:1.0
+  iam:
+    - $ref: ApiPreviewPrivate:Identify:1.0

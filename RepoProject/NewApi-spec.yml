@@ -1,0 +1,10 @@
+openapi: 3.0.1
+info:
+  title: ''
+  version: ''
+paths:
+  /update:
+    summary: Whatever
+    description: ''
+    put:
+      responses: {}
